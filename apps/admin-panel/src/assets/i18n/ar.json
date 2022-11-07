@@ -1,0 +1,345 @@
+{
+	"enum": {
+		"request": {
+			"Requested": "طلب",
+			"NotFound": "لا يوجد لا تجد",
+			"NoCloseFound": "لم يتم العثور على إغلاق",
+			"Found": "وجدت",
+			"DriverAccepted": "قبل السائق",
+			"Arrived": "وصل",
+			"WaitingForPrePay": "في انتظار الدفع المسبق",
+			"DriverCanceled": "تم إلغاء السائق",
+			"RiderCanceled": "تم إلغاء رايدر",
+			"Started": "بدأت",
+			"WaitingForPostPay": "في انتظار الدفع المؤجل",
+			"WaitingForReview": "في انتظار المراجعة",
+			"Finished": "تم الانتهاء من",
+			"Booked": "حجز",
+			"Expired": "منتهية الصلاحية"
+		},
+		"transactionType": {
+			"OrderFee": "رسوم الطلب",
+			"Cash": "السيولة النقدية",
+			"BankTransfer": "حوالة بنكية",
+			"Gift": "هدية مجانية",
+			"Commission": "عمولة",
+			"Correction": "تصحيح",
+			"InAppPayment": "الدفع داخل التطبيق",
+			"Withdraw": "ينسحب"
+		},
+		"transactionStatus": {
+			"Processing": "معالجة",
+			"Done": "منجز",
+			"Canceled": "ألغيت",
+			"Rejected": "مرفوض"
+		},
+		"gender": {
+			"male": "ذكر",
+			"female": "أنثى",
+			"genderless": "بلا جنس"
+		},
+		"complaintStatus": {
+			"submitted": "مقدم",
+			"underInvestigation": "قيد التحقيق",
+			"resolved": "تم الحل"
+		},
+		"driver": {
+			"status": {
+				"pendingApproval": "ما زال يحتاج بتصدير",
+				"approved": "وافق",
+				"blocked": "ممنوع",
+				"softReject": "رفض ناعم",
+				"hardReject": "رفض صعب",
+				"offline": "غير متصل على الانترنت",
+				"waitingDocuments": "إرسال معلق",
+				"inService": "في الخدمة",
+				"online": "عبر الانترنت"
+			}
+		},
+		"rider": {
+			"status": {
+				"blocked": "ممنوع",
+				"enabled": "ممكن"
+			}
+		}
+	},
+	"branding": {
+		"menu": {
+			"header": "ريدي"
+		},
+		"footer": {
+			"address": "http://ridy.io/",
+			"prefix": "© 2018-2021",
+			"title": "Ridy.io",
+			"suffix": "كل الحقوق محفوظة."
+		},
+		"page": {
+			"title": "Ridy CMS"
+		}
+	},
+	"menu": {
+		"home": {
+			"overview": "نظرة عامة",
+			"dispatcher": "المرسل",
+			"header": "منزل"
+		},
+		"driver": {
+			"pendingVerification": "في انتظار التحقق",
+			"all": "مشاهدة الكل",
+			"header": "السائقين"
+		},
+		"marketing": {
+			"coupons": "كوبونات",
+			"announcements": "الإعلانات",
+			"header": "تسويق"
+		},
+		"accounting": {
+			"admin": "مشرف",
+			"fleets": "أساطيل",
+			"drivers": "السائقين",
+			"riders": "الراكبون",
+			"header": "محاسبة"
+		},
+		"riders": "الراكبون",
+		"requests": "الطلبات",
+		"complaints": "شكاوي",
+		"management": {
+			"regions": "المناطق",
+			"services": "خدمات",
+			"fleets": "أساطيل",
+			"cars": "سيارات",
+			"userRoles": "أدوار المستخدمين",
+			"users": "المستخدمون",
+			"paymentGateways": "بوابات الدفع",
+			"settings": "إعدادات",
+			"header": "إدارة"
+		}
+	},
+	"overview": {
+		"switch": {
+			"language": "تبديل اللغة"
+		},
+		"notification": {
+			"title": "مركز إعلام"
+		},
+		"logout": "تسجيل خروج",
+		"driversOnline": "السائقين على الإنترنت",
+		"autoZoom": "تكبير تلقائي",
+		"viewDriver": "مشاهدة ملف سائق",
+		"complaints": {
+			"title": "شكاوي",
+			"suffix": "غير مراجع"
+		},
+		"activeOrders": {
+			"title": "أوامر نشطة",
+			"suffix": "الطلب #٪ s"
+		},
+		"pendingDrivers": {
+			"title": "السائقين المعلقة",
+			"suffix": "لم يتم التحقق منه"
+		},
+		"bookedOrders": {
+			"title": "الطلبات المحجوزة",
+			"suffix": "حجز"
+		},
+		"chart": {
+			"requestsTitle": "الطلبات",
+			"allDay": "طوال اليوم",
+			"allMonth": "طوال الشهر",
+			"allYear": "طوال العام",
+			"incomeTitle": "الإيرادات"
+		}
+	},
+	"notification": {
+		"complaints": {
+			"suffix": "عدم مراجعة الشكاوى"
+		},
+		"pendingDrivers": {
+			"suffix": "لم يتم التحقق من السائقين"
+		},
+		"paymentRequests": {
+			"suffix": "طلبات الدفع لم تتم تسويتها"
+		}
+	},
+	"requests": {
+		"expectedTime": "الوقت المتوقع",
+		"startTime": "وقت البدء",
+		"finishTime": "وقت الانتهاء",
+		"costAfterCoupon": "التكلفة بعد القسيمة",
+		"estimatedCost": "التكلفة المتوقعة",
+		"header": "رأس",
+		"requestTIme": "وقت الطلب",
+		"service": "الخدمات",
+		"distance": "مسافة",
+		"duration": "المدة الزمنية",
+		"chats": "القطط",
+		"complaints": "شكاوي",
+		"assign": "تعيين سائق (ألفا)"
+	},
+	"profile": {
+		"status": "الحالة",
+		"locations": "المواقع",
+		"view": "رأي",
+		"requestInfo": "اطلب معلومات",
+		"name": "اسم",
+		"mobileNumber": "رقم الهاتف المحمول",
+		"registeredOn": "مسجلة على",
+		"driverInfo": "معلومات السائق",
+		"riderInfo": "معلومات رايدر",
+		"details": "تفاصيل",
+		"dateTime": "التاريخ والوقت",
+		"subject": "موضوع",
+		"content": "المحتوى",
+		"actions": "أجراءات",
+		"services": "خدمات",
+		"upload": "رفع",
+		"save": "حفظ",
+		"rating": "تقييم",
+		"review": "مراجعة",
+		"transactionType": "نوع المعاملة",
+		"amount": "كمية",
+		"documentNumber": "رقم المستند",
+		"submit": "إرسال",
+		"insertTransaction": "أدخل المعاملة",
+		"cost": "كلفة",
+		"add": "أضف",
+		"lastName": "الكنية",
+		"search": "بحث",
+		"reset": "إعادة تعيين",
+		"export": "تصدير",
+		"total": "مجموع",
+		"currency": "عملة",
+		"next": "التالى",
+		"select": "Select",
+		"delete": "حذف",
+		"phoneNumber": "رقم الهاتف",
+		"address": "عنوان",
+		"financialRecords": "السجلات المالية",
+		"title": "عنوان",
+		"type": "نوع",
+		"enabled": "ممكن",
+		"disabled": "معاق",
+		"userAgent": "وكيل المستخدم",
+		"loginTimestamp": "تاريخ ووقت تسجيل الدخول",
+		"logoutTimestamp": "تاريخ ووقت تسجيل الخروج",
+		"userName": "اسم المستخدم",
+		"description": "وصف",
+		"code": "الشفرة",
+		"paymentGateway": "بوابة الدفع",
+		"rider": "رايدر",
+		"driver": "سائق",
+		"admin": "مشرف",
+		"coupon": "القسيمة",
+		"activities": "الجدول الزمني للأنشطة",
+		"location": "موقعك"
+	},
+	"complaint": {
+		"inscriptionTime": "تسجيل الوقت",
+		"content": "المحتوى"
+	},
+	"driver": {
+		"profile": {
+			"changeStatus": "تحديث الحالة",
+			"lastSeenAt": "شوهد آخر مرة في",
+			"rating": "تقييم",
+			"details": "تفاصيل",
+			"orders": "الطلب #٪ s",
+			"financials": "سجلات الائتمان",
+			"reviews": "المراجعات",
+			"documents": "مستندات"
+		}
+	},
+	"table": {
+		"viewRequest": "عرض الطلب",
+		"viewOperator": "مشاهدة المشغل",
+		"viewGateway": "مشاهدة ملف",
+		"details": "تفاصيل",
+		"min": "دقيقة",
+		"max": "ماكس",
+		"viewDriver": "مشاهدة ملف Driver",
+		"viewFleet": "مشاهدة ملف Fleet",
+		"viewRider": "مشاهدة ملف متسابق",
+		"viewComplaint": "عرض شكوى"
+	},
+	"dispatcher": {
+		"removeLastPoint": "إزالة آخر نقطة",
+		"rider": {
+			"title": "رايدر",
+			"description": "حدد الراكب لتعيين الطلب"
+		},
+		"location": {
+			"title": "موقعك",
+			"description": "موقع (مواقع) الالتقاء والتوصيل"
+		},
+		"service": {
+			"title": "الخدمات",
+			"description": "سيتم طلب الخدمة"
+		},
+		"looking": {
+			"title": "يبحث",
+			"description": "البحث عن سائق مؤهل"
+		},
+		"determiningLocation": "جاري تحديد الموقع ، الرجاء الانتظار ..."
+	},
+	"chart": {
+		"emptyState": "لا شيء لتراه هنا."
+	},
+	"message": {
+		"areYouSure": "هل أنت واثق؟"
+	},
+	"services": {
+		"editCategory": "تحرير الفئة",
+		"newCategory": "فئة جديدة",
+		"newService": "خدمة جديدة"
+	},
+	"service": {
+		"createFirstNotice": "قم بإنشاء فئة الخدمة الأولى الخاصة بك ليتم عرضها في تطبيقات العميل",
+		"Regions": "المناطق",
+		"timeMultiplierTable": {
+			"startTime": "وقت البدء",
+			"endTime": "وقت النهاية",
+			"multiplyBy": "اضرب ب"
+		},
+		"insertRule": "أدخل القاعدة",
+		"distanceMultiplierTable": {
+			"distanceFrom": "المسافة من",
+			"distanceTo": "المسافة إلى"
+		}
+	},
+	"settings": {
+		"generalSettings": "الاعدادات العامة"
+	},
+	"users": {
+		"tab": {
+			"details": "تفاصيل"
+		}
+	},
+	"coupons": {
+		"availabilityTime": "وقت التوفر",
+		"expirationTime": "تاريخ انتهاء الصلاحية"
+	},
+	"riders": {
+		"tab": {
+			"details": "تفاصيل",
+			"creditrecords": "سجلات الائتمان",
+			"orders": "الطلب #٪ s",
+			"addresses": "عناوين"
+		}
+	},
+	"requestActivityType": {
+		"arrivedToDestination": "وصل إلى الوجهة",
+		"arrivedToPickupPoint": "وصل إلى نقطة الالتقاط",
+		"bookedByOperator": "احجز حسب المشغل",
+		"bookedByRider": "Bookd By Rider",
+		"canceledByDriver": "ألغى بواسطة السائق",
+		"canceledByOperator": "ألغى المشغل",
+		"canceledByRider": "ألغى بواسطة رايدر",
+		"driverAccepted": "قبل السائق",
+		"expired": "منتهي الصلاحية",
+		"paid": "دفع",
+		"requestedByOperator": "طلب المشغل",
+		"requestedByRider": "طلب من قبل رايدر",
+		"reviewed": "تمت المراجعة والتقييم",
+		"started": "بدأت"
+	}
+}

@@ -1,0 +1,1 @@
+export let fn = '1';

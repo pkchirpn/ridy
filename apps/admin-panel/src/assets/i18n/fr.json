@@ -1,0 +1,345 @@
+{
+	"enum": {
+		"request": {
+			"Requested": "Demandé",
+			"NotFound": "Pas trouvé",
+			"NoCloseFound": "Fermer non trouvé",
+			"Found": "A trouvé",
+			"DriverAccepted": "Conducteur accepté",
+			"Arrived": "Arrivée",
+			"WaitingForPrePay": "En attente de pré-paiement",
+			"DriverCanceled": "Conducteur annulé",
+			"RiderCanceled": "Rider annulé",
+			"Started": "Commencé",
+			"WaitingForPostPay": "En attente de post-paiement",
+			"WaitingForReview": "en attente d'une revue",
+			"Finished": "Fini",
+			"Booked": "Réservé",
+			"Expired": "Expiré"
+		},
+		"transactionType": {
+			"OrderFee": "Frais de commande",
+			"Cash": "En espèces",
+			"BankTransfer": "Virement",
+			"Gift": "Cadeau",
+			"Commission": "Commission",
+			"Correction": "Correction",
+			"InAppPayment": "Paiement dans l'application",
+			"Withdraw": "Se désister"
+		},
+		"transactionStatus": {
+			"Processing": "En traitement",
+			"Done": "Terminé",
+			"Canceled": "Annulé",
+			"Rejected": "Rejeté"
+		},
+		"gender": {
+			"male": "Homme",
+			"female": "Femelle",
+			"genderless": "Sans genre"
+		},
+		"complaintStatus": {
+			"submitted": "Soumis",
+			"underInvestigation": "Sous enquête",
+			"resolved": "Résolu"
+		},
+		"driver": {
+			"status": {
+				"pendingApproval": "En attente de validation",
+				"approved": "Approuvé",
+				"blocked": "Bloqué",
+				"softReject": "Rejet doux",
+				"hardReject": "Rejet dur",
+				"offline": "Hors ligne",
+				"waitingDocuments": "En attente de soumission",
+				"inService": "En service",
+				"online": "En ligne"
+			}
+		},
+		"rider": {
+			"status": {
+				"blocked": "Bloqué",
+				"enabled": "Enabled"
+			}
+		}
+	},
+	"branding": {
+		"menu": {
+			"header": "Ridy"
+		},
+		"footer": {
+			"address": "http://ridy.io/",
+			"prefix": "© 2018-2021",
+			"title": "Ridy.io",
+			"suffix": "Tous les droits sont réservés."
+		},
+		"page": {
+			"title": "Ridy CMS"
+		}
+	},
+	"menu": {
+		"home": {
+			"overview": "Aperçu",
+			"dispatcher": "Répartiteur",
+			"header": "Accueil"
+		},
+		"driver": {
+			"pendingVerification": "Vérification en attente",
+			"all": "Voir tout",
+			"header": "Conducteurs"
+		},
+		"marketing": {
+			"coupons": "Coupons",
+			"announcements": "Annonces",
+			"header": "Commercialisation"
+		},
+		"accounting": {
+			"admin": "Administrateur",
+			"fleets": "Flottes",
+			"drivers": "Conducteurs",
+			"riders": "Coureurs",
+			"header": "Comptabilité"
+		},
+		"riders": "Coureurs",
+		"requests": "Demandes",
+		"complaints": "Réclamations",
+		"management": {
+			"regions": "Régions",
+			"services": "Prestations de service",
+			"fleets": "Flottes",
+			"cars": "Voitures",
+			"userRoles": "Rôles des utilisateurs",
+			"users": "Utilisateurs",
+			"paymentGateways": "Passerelles de paiement",
+			"settings": "Réglages",
+			"header": "La gestion"
+		}
+	},
+	"overview": {
+		"switch": {
+			"language": "Changer de langue"
+		},
+		"notification": {
+			"title": "Centre de notification"
+		},
+		"logout": "Se déconnecter",
+		"driversOnline": "Pilotes en ligne",
+		"autoZoom": "Zoom automatique",
+		"viewDriver": "Afficher le pilote",
+		"complaints": {
+			"title": "Réclamations",
+			"suffix": "Non examiné"
+		},
+		"activeOrders": {
+			"title": "Commandes actives",
+			"suffix": "Ordres"
+		},
+		"pendingDrivers": {
+			"title": "Pilotes en attente",
+			"suffix": "Non vérifié"
+		},
+		"bookedOrders": {
+			"title": "Commandes enregistrées",
+			"suffix": "Réservé"
+		},
+		"chart": {
+			"requestsTitle": "Demandes",
+			"allDay": "Toute la journée",
+			"allMonth": "Tout le mois",
+			"allYear": "Toute l'année",
+			"incomeTitle": "le revenu"
+		}
+	},
+	"notification": {
+		"complaints": {
+			"suffix": "Plaintes non examinées"
+		},
+		"pendingDrivers": {
+			"suffix": "Pilotes non vérifiés"
+		},
+		"paymentRequests": {
+			"suffix": "Demandes de paiement non réglées"
+		}
+	},
+	"requests": {
+		"expectedTime": "Heure prévue",
+		"startTime": "Heure de début",
+		"finishTime": "Heure de fin",
+		"costAfterCoupon": "Coût après le coupon",
+		"estimatedCost": "Coût estimé",
+		"header": "Entête",
+		"requestTIme": "Temps de demande",
+		"service": "Un service",
+		"distance": "Distance",
+		"duration": "Durée",
+		"chats": "Chats",
+		"complaints": "Réclamations",
+		"assign": "Attribuer un chauffeur (Alpha)"
+	},
+	"profile": {
+		"status": "Statut",
+		"locations": "Emplacements",
+		"view": "Vue",
+		"requestInfo": "Demande d'info",
+		"name": "Nom",
+		"mobileNumber": "Numéro de portable",
+		"registeredOn": "Enregistré le",
+		"driverInfo": "Informations sur le conducteur",
+		"riderInfo": "Informations sur le pilote",
+		"details": "Détails",
+		"dateTime": "Date et heure",
+		"subject": "Matière",
+		"content": "Contenu",
+		"actions": "Actions",
+		"services": "Prestations de service",
+		"upload": "Télécharger",
+		"save": "sauvegarder",
+		"rating": "Évaluation",
+		"review": "La revue",
+		"transactionType": "Type de transaction",
+		"amount": "Montant",
+		"documentNumber": "numéro de document",
+		"submit": "Soumettre",
+		"insertTransaction": "Insérer une transaction",
+		"cost": "Coût",
+		"add": "Ajouter",
+		"lastName": "Nom de famille",
+		"search": "Search",
+		"reset": "Réinitialiser",
+		"export": "Exportation",
+		"total": "Total",
+		"currency": "Devise",
+		"next": "Suivant",
+		"select": "Sélectionner",
+		"delete": "Effacer",
+		"phoneNumber": "Numéro de téléphone",
+		"address": "Adresse",
+		"financialRecords": "Dossiers financiers",
+		"title": "Titre",
+		"type": "Type",
+		"enabled": "Activée",
+		"disabled": "désactivé",
+		"userAgent": "Agent utilisateur",
+		"loginTimestamp": "Date et heure de connexion",
+		"logoutTimestamp": "Date et heure de déconnexion",
+		"userName": "Nom d'utilisateur",
+		"description": "La description",
+		"code": "Code",
+		"paymentGateway": "Passerelle de paiement",
+		"rider": "Cavalier",
+		"driver": "Chauffeur",
+		"admin": "Administrateur",
+		"coupon": "Coupon",
+		"activities": "Chronologie des activités",
+		"location": "Emplacement"
+	},
+	"complaint": {
+		"inscriptionTime": "Inscription Time",
+		"content": "Contenu"
+	},
+	"driver": {
+		"profile": {
+			"changeStatus": "État de mise à jour",
+			"lastSeenAt": "Vu dernièrement à",
+			"rating": "Évaluation",
+			"details": "Détails",
+			"orders": "Ordres",
+			"financials": "Dossiers de crédit",
+			"reviews": "Commentaires",
+			"documents": "Des documents"
+		}
+	},
+	"table": {
+		"viewRequest": "Afficher la demande",
+		"viewOperator": "Afficher l'opérateur",
+		"viewGateway": "Afficher la passerelle",
+		"details": "Des détails",
+		"min": "Min",
+		"max": "Max",
+		"viewDriver": "Afficher le pilote",
+		"viewFleet": "Voir la flotte",
+		"viewRider": "Voir le cavalier",
+		"viewComplaint": "Afficher la plainte"
+	},
+	"dispatcher": {
+		"removeLastPoint": "Supprimer le dernier point",
+		"rider": {
+			"title": "Cavalier",
+			"description": "Sélectionnez le cavalier pour attribuer la demande"
+		},
+		"location": {
+			"title": "Emplacement",
+			"description": "Lieu (x) de prise en charge et de dépose"
+		},
+		"service": {
+			"title": "Un service",
+			"description": "Service à demander"
+		},
+		"looking": {
+			"title": "Regardant",
+			"description": "Recherche de conducteur éligible"
+		},
+		"determiningLocation": "Détermination de l'emplacement, veuillez patienter ..."
+	},
+	"chart": {
+		"emptyState": "Rien à voir ici."
+	},
+	"message": {
+		"areYouSure": "Êtes-vous sûr?"
+	},
+	"services": {
+		"editCategory": "Modifier la catégorie",
+		"newCategory": "Nouvelle catégorie",
+		"newService": "Nouveau service"
+	},
+	"service": {
+		"createFirstNotice": "Créez votre première catégorie de service à afficher dans les applications clientes",
+		"Regions": "Régions",
+		"timeMultiplierTable": {
+			"startTime": "Heure de début",
+			"endTime": "Heure de fin",
+			"multiplyBy": "Multiplier par"
+		},
+		"insertRule": "Insérer une règle",
+		"distanceMultiplierTable": {
+			"distanceFrom": "Distance de",
+			"distanceTo": "Distance à"
+		}
+	},
+	"settings": {
+		"generalSettings": "réglages généraux"
+	},
+	"users": {
+		"tab": {
+			"details": "Détails"
+		}
+	},
+	"coupons": {
+		"availabilityTime": "Temps de disponibilité",
+		"expirationTime": "Date d'expiration"
+	},
+	"riders": {
+		"tab": {
+			"details": "Détails",
+			"creditrecords": "Dossiers de crédit",
+			"orders": "Ordres",
+			"addresses": "Adresses"
+		}
+	},
+	"requestActivityType": {
+		"arrivedToDestination": "Arrivé à destination",
+		"arrivedToPickupPoint": "Arrivé au point de ramassage",
+		"bookedByOperator": "Réservez par opérateur",
+		"bookedByRider": "Réservé par le cavalier",
+		"canceledByDriver": "Annulé par le conducteur",
+		"canceledByOperator": "Annulé par l'opérateur",
+		"canceledByRider": "Annulé par le cavalier",
+		"driverAccepted": "Chauffeur accepté",
+		"expired": "Expiré",
+		"paid": "Payé",
+		"requestedByOperator": "Demandé par l'opérateur",
+		"requestedByRider": "Demandé par le cavalier",
+		"reviewed": "Examiné et noté",
+		"started": "A débuté"
+	}
+}

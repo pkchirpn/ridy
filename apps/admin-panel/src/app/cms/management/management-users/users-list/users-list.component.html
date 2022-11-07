@@ -1,0 +1,29 @@
+<nz-page-header [nzGhost]="false" nzBackIcon nzTitle="Operators"
+  nzSubtitle="Users of Admin panel (Operators and admins)">
+  <nz-page-header-extra>
+    <button nz-button nzType="primary" routerLink="new"><i nz-icon nzType="plus"></i>{{ 'profile.add' | translate
+      }}</button>
+  </nz-page-header-extra>
+  <nz-page-header-content>
+    <nz-table #table nzShowSizeChanger [nzFrontPagination]="false" *ngIf="(query | async)?.data?.operators as operators"
+      [nzData]="operators.nodes" [nzTotal]="operators.totalCount"
+      (nzQueryParams)="tableService.onTableQueryParamsChange($event)" nzBordered>
+      <thead>
+        <tr>
+          <th>{{ 'profile.name' | translate }}</th>
+          <th>{{ 'profile.userName' | translate }}</th>
+          <th>{{ 'profile.actions' | translate }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of table.data">
+          <td>{{ data.firstName }} {{data.lastName}}</td>
+          <td>{{ data.userName }}</td>
+          <td>
+            <a [routerLink]="'view/' + data.id">{{ 'table.details' | translate }}</a>
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </nz-page-header-content>
+</nz-page-header>

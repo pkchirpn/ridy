@@ -1,0 +1,32 @@
+<nz-page-header [nzGhost]="false" nzBackIcon nzTitle="Payment Gateways" nzSubtitle="Payment options of clients">
+  <nz-page-header-extra>
+    <button nz-button nzType="primary" routerLink="new"><i nz-icon nzType="plus"></i>{{ 'profile.add' | translate
+      }}</button>
+  </nz-page-header-extra>
+  <nz-page-header-content>
+    <nz-table #table nzShowSizeChanger [nzFrontPagination]="false"
+      *ngIf="(query | async)?.data?.paymentGateways as paymentGateways" [nzData]="paymentGateways.nodes"
+      [nzTotal]="paymentGateways.totalCount" (nzQueryParams)="tableService.onTableQueryParamsChange($event)" nzBordered>
+      <thead>
+        <tr>
+          <th>
+            {{ 'profile.title' | translate }}
+          </th>
+          <th>
+            {{ 'profile.type' | translate }}
+          </th>
+          <th>{{ 'profile.actions' | translate }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of table.data">
+          <td>{{ data.title }}</td>
+          <td>{{ data.type }}</td>
+          <td>
+            <a [routerLink]="'view/' + data.id">{{ 'table.details' | translate }}</a>
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </nz-page-header-content>
+</nz-page-header>

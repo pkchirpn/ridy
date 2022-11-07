@@ -1,0 +1,345 @@
+{
+	"enum": {
+		"request": {
+			"Requested": "リクエスト済み",
+			"NotFound": "見つかりません",
+			"NoCloseFound": "閉じるが見つかりません",
+			"Found": "見つかりました",
+			"DriverAccepted": "ドライバーが承認されました",
+			"Arrived": "到着した",
+			"WaitingForPrePay": "前払いを待っています",
+			"DriverCanceled": "ドライバーがキャンセルされました",
+			"RiderCanceled": "ライダーがキャンセルされました",
+			"Started": "開始",
+			"WaitingForPostPay": "後払いを待っています",
+			"WaitingForReview": "レビュー待ち",
+			"Finished": "終了しました",
+			"Booked": "予約済み",
+			"Expired": "期限切れ"
+		},
+		"transactionType": {
+			"OrderFee": "注文料金",
+			"Cash": "現金",
+			"BankTransfer": "銀行振込",
+			"Gift": "贈り物",
+			"Commission": "手数料",
+			"Correction": "修正",
+			"InAppPayment": "アプリ内支払い",
+			"Withdraw": "撤退"
+		},
+		"transactionStatus": {
+			"Processing": "処理",
+			"Done": "完了",
+			"Canceled": "キャンセル",
+			"Rejected": "拒否されました"
+		},
+		"gender": {
+			"male": "男",
+			"female": "女性",
+			"genderless": "ジェンダーレス"
+		},
+		"complaintStatus": {
+			"submitted": "提出済み",
+			"underInvestigation": "調査中で",
+			"resolved": "解決済み"
+		},
+		"driver": {
+			"status": {
+				"pendingApproval": "承認待ちの",
+				"approved": "承認済み",
+				"blocked": "ブロックされた",
+				"softReject": "ソフトリジェクト",
+				"hardReject": "ハードリジェクト",
+				"offline": "オフライン",
+				"waitingDocuments": "提出待ち",
+				"inService": "稼働中",
+				"online": "オンライン"
+			}
+		},
+		"rider": {
+			"status": {
+				"blocked": "ブロックされた",
+				"enabled": "有効"
+			}
+		}
+	},
+	"branding": {
+		"menu": {
+			"header": "リディ"
+		},
+		"footer": {
+			"address": "http://ridy.io/",
+			"prefix": "©2018-2021",
+			"title": "Ridy.io",
+			"suffix": "全著作権所有。"
+		},
+		"page": {
+			"title": "Ridy CMS"
+		}
+	},
+	"menu": {
+		"home": {
+			"overview": "概要概要",
+			"dispatcher": "発車係",
+			"header": "ホーム"
+		},
+		"driver": {
+			"pendingVerification": "検証待ち",
+			"all": "すべて表示",
+			"header": "運転手"
+		},
+		"marketing": {
+			"coupons": "クーポン",
+			"announcements": "お知らせ",
+			"header": "マーケティング"
+		},
+		"accounting": {
+			"admin": "管理者",
+			"fleets": "艦隊",
+			"drivers": "運転手",
+			"riders": "ライダー",
+			"header": "会計"
+		},
+		"riders": "ライダー",
+		"requests": "リクエスト",
+		"complaints": "苦情",
+		"management": {
+			"regions": "地域",
+			"services": "サービス",
+			"fleets": "艦隊",
+			"cars": "車",
+			"userRoles": "ユーザーの役割",
+			"users": "ユーザー",
+			"paymentGateways": "支払いゲートウェイ",
+			"settings": "設定",
+			"header": "管理"
+		}
+	},
+	"overview": {
+		"switch": {
+			"language": "言語の切り替え"
+		},
+		"notification": {
+			"title": "通知センター"
+		},
+		"logout": "ログアウト",
+		"driversOnline": "オンラインドライバー",
+		"autoZoom": "自動ズーム",
+		"viewDriver": "ドライバーを見る",
+		"complaints": {
+			"title": "苦情",
+			"suffix": "未レビュー"
+		},
+		"activeOrders": {
+			"title": "アクティブな注文",
+			"suffix": "注文"
+		},
+		"pendingDrivers": {
+			"title": "保留中のドライバー",
+			"suffix": "未確認"
+		},
+		"bookedOrders": {
+			"title": "予約済みの注文",
+			"suffix": "予約済み"
+		},
+		"chart": {
+			"requestsTitle": "リクエスト",
+			"allDay": "一日中",
+			"allMonth": "一ヶ月中",
+			"allYear": "通年",
+			"incomeTitle": "所得"
+		}
+	},
+	"notification": {
+		"complaints": {
+			"suffix": "未審査の苦情"
+		},
+		"pendingDrivers": {
+			"suffix": "未確認のドライバー"
+		},
+		"paymentRequests": {
+			"suffix": "未決済の支払い要求"
+		}
+	},
+	"requests": {
+		"expectedTime": "予定の時間",
+		"startTime": "始まる時間",
+		"finishTime": "終了時刻",
+		"costAfterCoupon": "クーポン後の費用",
+		"estimatedCost": "見積もり金額",
+		"header": "ヘッダ",
+		"requestTIme": "リクエスト時間",
+		"service": "サービス",
+		"distance": "距離",
+		"duration": "デュレーション",
+		"chats": "猫",
+		"complaints": "苦情",
+		"assign": "ドライバーの割り当て（アルファ）"
+	},
+	"profile": {
+		"status": "状態",
+		"locations": "場所",
+		"view": "見る",
+		"requestInfo": "情報をリクエストする",
+		"name": "名前",
+		"mobileNumber": "携帯電話番号",
+		"registeredOn": "登録日",
+		"driverInfo": "ドライバー情報",
+		"riderInfo": "ライダー情報",
+		"details": "詳細",
+		"dateTime": "日付時刻",
+		"subject": "件名",
+		"content": "コンテンツ",
+		"actions": "行動",
+		"services": "サービス",
+		"upload": "アップロード",
+		"save": "保存する",
+		"rating": "評価",
+		"review": "レビュー",
+		"transactionType": "トランザクションタイプ",
+		"amount": "量",
+		"documentNumber": "書類番号",
+		"submit": "参加する",
+		"insertTransaction": "トランザクションの挿入",
+		"cost": "費用",
+		"add": "追加",
+		"lastName": "苗字",
+		"search": "探す",
+		"reset": "リセット",
+		"export": "書き出す",
+		"total": "合計",
+		"currency": "通貨",
+		"next": "次",
+		"select": "選択する",
+		"delete": "削除",
+		"phoneNumber": "電話番号",
+		"address": "住所",
+		"financialRecords": "財務記録",
+		"title": "題名",
+		"type": "タイプ",
+		"enabled": "有効",
+		"disabled": "無効",
+		"userAgent": "ユーザーエージェント",
+		"loginTimestamp": "ログイン日時",
+		"logoutTimestamp": "ログアウト日時",
+		"userName": "ユーザー名",
+		"description": "説明",
+		"code": "コード",
+		"paymentGateway": "ペイメントゲートウェイ",
+		"rider": "ライダー",
+		"driver": "運転者",
+		"admin": "管理者",
+		"coupon": "クーポン",
+		"activities": "活動のタイムライン",
+		"location": "ロケーション"
+	},
+	"complaint": {
+		"inscriptionTime": "時間登録",
+		"content": "コンテンツ"
+	},
+	"driver": {
+		"profile": {
+			"changeStatus": "最新状況",
+			"lastSeenAt": "最後に見た場所",
+			"rating": "評価",
+			"details": "詳細",
+			"orders": "注文",
+			"financials": "クレジットレコード",
+			"reviews": "レビュー",
+			"documents": "ドキュメント"
+		}
+	},
+	"table": {
+		"viewRequest": "リクエストを表示",
+		"viewOperator": "オペレーターの表示",
+		"viewGateway": "ビューゲートウェイ",
+		"details": "詳細",
+		"min": "最小",
+		"max": "マックス",
+		"viewDriver": "ドライバーを表示",
+		"viewFleet": "フリートを表示",
+		"viewRider": "ライダーを見る",
+		"viewComplaint": "苦情を見る"
+	},
+	"dispatcher": {
+		"removeLastPoint": "最後のポイントを削除",
+		"rider": {
+			"title": "ライダー",
+			"description": "リクエストを割り当てるライダーを選択します"
+		},
+		"location": {
+			"title": "ロケーション",
+			"description": "ピックアップとドロップオフの場所"
+		},
+		"service": {
+			"title": "サービス",
+			"description": "要求されるサービス"
+		},
+		"looking": {
+			"title": "見て",
+			"description": "適格なドライバーを検索する"
+		},
+		"determiningLocation": "場所の決定、お待ちください..."
+	},
+	"chart": {
+		"emptyState": "ここには何も表示されません。"
+	},
+	"message": {
+		"areYouSure": "本気ですか？"
+	},
+	"services": {
+		"editCategory": "カテゴリの編集",
+		"newCategory": "新たなカテゴリー",
+		"newService": "新しいサービス"
+	},
+	"service": {
+		"createFirstNotice": "クライアントアプリケーションに表示される最初のサービスカテゴリを作成します",
+		"Regions": "地域",
+		"timeMultiplierTable": {
+			"startTime": "始まる時間",
+			"endTime": "終了時間",
+			"multiplyBy": "掛ける"
+		},
+		"insertRule": "ルールを挿入",
+		"distanceMultiplierTable": {
+			"distanceFrom": "からの距離",
+			"distanceTo": "までの距離"
+		}
+	},
+	"settings": {
+		"generalSettings": "一般設定"
+	},
+	"users": {
+		"tab": {
+			"details": "詳細"
+		}
+	},
+	"coupons": {
+		"availabilityTime": "利用可能時間",
+		"expirationTime": "有効期限"
+	},
+	"riders": {
+		"tab": {
+			"details": "詳細",
+			"creditrecords": "クレジットレコード",
+			"orders": "注文",
+			"addresses": "住所"
+		}
+	},
+	"requestActivityType": {
+		"arrivedToDestination": "目的地に到着",
+		"arrivedToPickupPoint": "ピックアップポイントに到着",
+		"bookedByOperator": "オペレーターによる予約",
+		"bookedByRider": "ライダーによる予約",
+		"canceledByDriver": "ドライバーによるキャンセル",
+		"canceledByOperator": "オペレーターによりキャンセル",
+		"canceledByRider": "ライダーによるキャンセル",
+		"driverAccepted": "ドライバーが承認されました",
+		"expired": "期限切れ",
+		"paid": "有料",
+		"requestedByOperator": "オペレーターからの要求",
+		"requestedByRider": "ライダーからのリクエスト",
+		"reviewed": "レビュー＆評価",
+		"started": "開始"
+	}
+}

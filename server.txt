@@ -1,0 +1,1 @@
+In order to download and install server side of the solution please refer to documentation at https://docs-flutter.ridy.io

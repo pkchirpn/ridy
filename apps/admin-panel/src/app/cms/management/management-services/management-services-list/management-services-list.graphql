@@ -1,0 +1,13 @@
+query ServicesList {
+    serviceCategories {
+        id
+        name
+        services {
+            id
+            name
+            media {
+                address
+            }
+        }
+    }
+}

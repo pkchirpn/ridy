@@ -1,0 +1,345 @@
+{
+	"enum": {
+		"request": {
+			"Requested": "درخواست کی",
+			"NotFound": "نہیں ملا",
+			"NoCloseFound": "بند نہیں ملا",
+			"Found": "ملا",
+			"DriverAccepted": "ڈرائیور قبول کر لیا",
+			"Arrived": "پہنچا",
+			"WaitingForPrePay": "قبل از ادائیگی کا انتظار ہے",
+			"DriverCanceled": "ڈرائیور منسوخ ہوگیا",
+			"RiderCanceled": "سوار منسوخ ہوگیا",
+			"Started": "شروع",
+			"WaitingForPostPay": "پوسٹ ادائیگی کا انتظار ہے",
+			"WaitingForReview": "جائزہ لینے کا انتظار",
+			"Finished": "ختم",
+			"Booked": "بک کیا",
+			"Expired": "میعاد ختم ہوگئی"
+		},
+		"transactionType": {
+			"OrderFee": "آرڈر کی فیس",
+			"Cash": "نقد",
+			"BankTransfer": "بینک ٹرانسفر",
+			"Gift": "تحفہ",
+			"Commission": "کمیشن",
+			"Correction": "تصحیح",
+			"InAppPayment": "ایپ ادائیگی میں",
+			"Withdraw": "واپس لینا"
+		},
+		"transactionStatus": {
+			"Processing": "پروسیسنگ",
+			"Done": "ہو گیا",
+			"Canceled": "منسوخ",
+			"Rejected": "مسترد"
+		},
+		"gender": {
+			"male": "مرد",
+			"female": "عورت",
+			"genderless": "بے جنس"
+		},
+		"complaintStatus": {
+			"submitted": "جمع کرایا",
+			"underInvestigation": "زیر تفتیش",
+			"resolved": "حل ہو گیا۔"
+		},
+		"driver": {
+			"status": {
+				"pendingApproval": "زیر التواء منظوری",
+				"approved": "منظورشدہ",
+				"blocked": "مسدود",
+				"softReject": "نرم مسترد کریں",
+				"hardReject": "ہارڈ ریجیکٹ",
+				"offline": "آف لائن",
+				"waitingDocuments": "زیر التواء جمع آوری",
+				"inService": "سروس میں",
+				"online": "آن لائن"
+			}
+		},
+		"rider": {
+			"status": {
+				"blocked": "مسدود",
+				"enabled": "فعال"
+			}
+		}
+	},
+	"branding": {
+		"menu": {
+			"header": "جلدی"
+		},
+		"footer": {
+			"address": "http://ridy.io/",
+			"prefix": "-20 2018-2021",
+			"title": "Ridy.io",
+			"suffix": "جملہ حقوق محفوظ ہیں."
+		},
+		"page": {
+			"title": "تیز سی ایم ایس"
+		}
+	},
+	"menu": {
+		"home": {
+			"overview": "جائزہ",
+			"dispatcher": "بھیجنے والا",
+			"header": "گھر"
+		},
+		"driver": {
+			"pendingVerification": "زیر التواء تصدیق",
+			"all": "سب دیکھیں",
+			"header": "ڈرائیور"
+		},
+		"marketing": {
+			"coupons": "کوپن",
+			"announcements": "اعلانات",
+			"header": "مارکیٹنگ"
+		},
+		"accounting": {
+			"admin": "ایڈمن",
+			"fleets": "بیڑے",
+			"drivers": "ڈرائیور",
+			"riders": "سوار",
+			"header": "اکاؤنٹنگ"
+		},
+		"riders": "سوار",
+		"requests": "درخواستیں",
+		"complaints": "شکایات",
+		"management": {
+			"regions": "خطے",
+			"services": "خدمات",
+			"fleets": "بیڑے",
+			"cars": "کاریں",
+			"userRoles": "صارف کے کردار",
+			"users": "صارفین",
+			"paymentGateways": "ادائیگی کے دروازے",
+			"settings": "ترتیبات",
+			"header": "مینجمنٹ"
+		}
+	},
+	"overview": {
+		"switch": {
+			"language": "زبان تبدیل کریں"
+		},
+		"notification": {
+			"title": "اطلاع کا مرکز"
+		},
+		"logout": "لاگ آوٹ",
+		"driversOnline": "ڈرائیور آن لائن",
+		"autoZoom": "آٹو زوم",
+		"viewDriver": "ڈرائیور دیکھیں",
+		"complaints": {
+			"title": "شکایات",
+			"suffix": "جائزہ نہیں لیا گیا"
+		},
+		"activeOrders": {
+			"title": "ایکٹو آرڈرز",
+			"suffix": "احکامات"
+		},
+		"pendingDrivers": {
+			"title": "زیر التواء ڈرائیور",
+			"suffix": "غیر تصدیق شدہ"
+		},
+		"bookedOrders": {
+			"title": "بک شدہ آرڈرز",
+			"suffix": "بک کروایا"
+		},
+		"chart": {
+			"requestsTitle": "درخواستیں",
+			"allDay": "تمام دن",
+			"allMonth": "سارا مہینہ",
+			"allYear": "سال بھر",
+			"incomeTitle": "آمدنی"
+		}
+	},
+	"notification": {
+		"complaints": {
+			"suffix": "شکایات کا جائزہ نہیں لیا گیا"
+		},
+		"pendingDrivers": {
+			"suffix": "ڈرائیور غیر تصدیق شدہ"
+		},
+		"paymentRequests": {
+			"suffix": "ادائیگی کی درخواستیں غیر سیٹ شدہ"
+		}
+	},
+	"requests": {
+		"expectedTime": "متوقع وقت",
+		"startTime": "وقت آغاز",
+		"finishTime": "ختم وقت",
+		"costAfterCoupon": "کوپن کے بعد لاگت آئے گی",
+		"estimatedCost": "متوقع قیمت",
+		"header": "ہیڈر",
+		"requestTIme": "وقت کی درخواست کریں",
+		"service": "خدمت",
+		"distance": "فاصلے",
+		"duration": "دورانیہ",
+		"chats": "بلیوں",
+		"complaints": "شکایات",
+		"assign": "ڈرائیور کو تفویض کریں (الفا)"
+	},
+	"profile": {
+		"status": "حالت",
+		"locations": "مقامات",
+		"view": "دیکھیں",
+		"requestInfo": "درخواست کی معلومات",
+		"name": "نام",
+		"mobileNumber": "موبائل نمبر",
+		"registeredOn": "پر رجسٹرڈ",
+		"driverInfo": "ڈرائیور کی معلومات",
+		"riderInfo": "سوار کی معلومات",
+		"details": "تفصیلات",
+		"dateTime": "تاریخ وقت",
+		"subject": "مضمون",
+		"content": "مواد",
+		"actions": "عمل",
+		"services": "خدمات",
+		"upload": "اپ لوڈ کریں",
+		"save": "محفوظ کریں",
+		"rating": "درجہ بندی",
+		"review": "جائزہ",
+		"transactionType": "ٹرانزیکشن کی قسم",
+		"amount": "رقم",
+		"documentNumber": "دستاویز نمبر",
+		"submit": "جمع کرائیں",
+		"insertTransaction": "ٹرانزیکشن داخل کریں",
+		"cost": "لاگت",
+		"add": "شامل کریں",
+		"lastName": "آخری نام",
+		"search": "تلاش کریں",
+		"reset": "ری سیٹ کریں",
+		"export": "برآمد کریں",
+		"total": "کل",
+		"currency": "کرنسی",
+		"next": "اگلے",
+		"select": "منتخب کریں",
+		"delete": "حذف کریں",
+		"phoneNumber": "فون نمبر",
+		"address": "پتہ",
+		"financialRecords": "مالی ریکارڈ",
+		"title": "عنوان",
+		"type": "ٹائپ کریں",
+		"enabled": "فعال",
+		"disabled": "غیر فعال",
+		"userAgent": "صارف ایجنٹ",
+		"loginTimestamp": "لاگ ان کی تاریخ اور وقت",
+		"logoutTimestamp": "لاگ آؤٹ تاریخ اور وقت",
+		"userName": "صارف کا نام",
+		"description": "تفصیل",
+		"code": "کوڈ",
+		"paymentGateway": "پیسے ادا کرنے کا طریقہ",
+		"rider": "سوار",
+		"driver": "ڈرائیور",
+		"admin": "ایڈمن",
+		"coupon": "کوپن",
+		"activities": "سرگرمیوں کی ٹائم لائن",
+		"location": "مقام"
+	},
+	"complaint": {
+		"inscriptionTime": "وقت کی رجسٹریشن",
+		"content": "مواد"
+	},
+	"driver": {
+		"profile": {
+			"changeStatus": "اپ ڈیٹ کی حیثیت",
+			"lastSeenAt": "آخری دیکھا ہوا",
+			"rating": "درجہ بندی",
+			"details": "تفصیلات",
+			"orders": "احکامات",
+			"financials": "کریڈٹ ریکارڈز",
+			"reviews": "جائزہ",
+			"documents": "دستاویزات"
+		}
+	},
+	"table": {
+		"viewRequest": "درخواست دیکھیں",
+		"viewOperator": "آپریٹر دیکھیں",
+		"viewGateway": "گیٹ وے دیکھیں",
+		"details": "تفصیلات",
+		"min": "کم سے کم",
+		"max": "زیادہ سے زیادہ",
+		"viewDriver": "ڈرائیور دیکھیں",
+		"viewFleet": "فلیٹ دیکھیں",
+		"viewRider": "سوار دیکھیں",
+		"viewComplaint": "شکایت دیکھیں"
+	},
+	"dispatcher": {
+		"removeLastPoint": "آخری نقطہ ہٹائیں",
+		"rider": {
+			"title": "سوار",
+			"description": "درخواست تفویض کرنے کے لئے سوار منتخب کریں"
+		},
+		"location": {
+			"title": "مقام",
+			"description": "اٹھاو اور ڈراپ آف لوکیشن (مقامات)"
+		},
+		"service": {
+			"title": "خدمت",
+			"description": "خدمت کی درخواست کی جائے"
+		},
+		"looking": {
+			"title": "دیکھ رہا ہے",
+			"description": "اہل ڈرائیور کی تلاش"
+		},
+		"determiningLocation": "مقام کا تعین کرنا ، براہ کرم انتظار کریں ..."
+	},
+	"chart": {
+		"emptyState": "یہاں دیکھنے کے لیے کچھ نہیں ہے۔"
+	},
+	"message": {
+		"areYouSure": "کیا تمہیں یقین ہے؟"
+	},
+	"services": {
+		"editCategory": "زمرہ میں ترمیم کریں",
+		"newCategory": "نئی قسم",
+		"newService": "نئی سروس"
+	},
+	"service": {
+		"createFirstNotice": "کلائنٹ کی ایپلی کیشنز میں ظاہر ہونے کے لئے اپنی پہلی خدمت کیٹیگری بنائیں",
+		"Regions": "خطے",
+		"timeMultiplierTable": {
+			"startTime": "وقت آغاز",
+			"endTime": "آخر وقت",
+			"multiplyBy": "ضرب بذریعہ"
+		},
+		"insertRule": "قاعدہ داخل کریں",
+		"distanceMultiplierTable": {
+			"distanceFrom": "سے دوری",
+			"distanceTo": "سے فاصلہ"
+		}
+	},
+	"settings": {
+		"generalSettings": "عام ترتیبات"
+	},
+	"users": {
+		"tab": {
+			"details": "تفصیلات"
+		}
+	},
+	"coupons": {
+		"availabilityTime": "دستیابی کا وقت",
+		"expirationTime": "میعاد ختم ہونے کا وقت"
+	},
+	"riders": {
+		"tab": {
+			"details": "تفصیلات",
+			"creditrecords": "کریڈٹ ریکارڈز",
+			"orders": "احکامات",
+			"addresses": "پتے"
+		}
+	},
+	"requestActivityType": {
+		"arrivedToDestination": "منزل تک پہنچا",
+		"arrivedToPickupPoint": "پک اپ پوائنٹ پر پہنچا",
+		"bookedByOperator": "آپریٹر کے ذریعہ کتاب",
+		"bookedByRider": "رائڈر کے ذریعہ بک کیا گیا۔",
+		"canceledByDriver": "ڈرائیور کی طرف سے منسوخ",
+		"canceledByOperator": "آپریٹر کے ذریعہ منسوخ",
+		"canceledByRider": "رائڈر کے ذریعے منسوخ کر دیا گیا۔",
+		"driverAccepted": "ڈرائیور نے قبول کر لیا۔",
+		"expired": "میعاد ختم",
+		"paid": "ادا کیا",
+		"requestedByOperator": "آپریٹر کے ذریعہ درخواست کی گئی۔",
+		"requestedByRider": "رائڈر کے ذریعہ درخواست کی گئی۔",
+		"reviewed": "جائزہ لیا اور درجہ بندی کی۔",
+		"started": "شروع"
+	}
+}

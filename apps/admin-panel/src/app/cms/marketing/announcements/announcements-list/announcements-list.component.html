@@ -1,0 +1,30 @@
+  <nz-page-header [nzGhost]="false" nzBackIcon nzTitle="Announcements" nzSubtitle="List of all the announcements">
+    <nz-page-header-extra>
+      <button nz-button nzType="primary" routerLink="new"><i nz-icon nzType="plus"></i>{{ 'profile.add' | translate
+        }}</button>
+    </nz-page-header-extra>
+    <nz-page-header-content>
+      <nz-table #table nzShowSizeChanger [nzFrontPagination]="false" *ngIf="(query | async)?.data?.announcements as announcements"
+        [nzData]="announcements.nodes" [nzTotal]="announcements.totalCount"
+        (nzQueryParams)="tableService.onTableQueryParamsChange($event)" nzBordered>
+        <thead>
+          <tr>
+            <th>{{ 'profile.title' | translate }}</th>
+            <th>{{ 'profile.description' | translate }}</th>
+            <th>{{ 'profile.dateTime' | translate }}</th>
+            <th>{{ 'profile.actions' | translate }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of table.data">
+            <td>{{ data.title }}</td>
+            <td>{{ data.description }}</td>
+            <td>{{ data.startAt | date: 'mediumDate'}} - {{data.expireAt | date: 'mediumDate'}}</td>
+            <td>
+              <a [routerLink]="'../view/' + data.id">{{ 'profile.view' | translate }}</a>
+            </td>
+          </tr>
+        </tbody>
+      </nz-table>
+    </nz-page-header-content>
+  </nz-page-header>

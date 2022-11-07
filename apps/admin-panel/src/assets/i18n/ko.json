@@ -1,0 +1,345 @@
+{
+	"enum": {
+		"request": {
+			"Requested": "Requested",
+			"NotFound": "Not Found",
+			"NoCloseFound": "Close Not Found",
+			"Found": "Found",
+			"DriverAccepted": "Driver Accepted",
+			"Arrived": "Arrived",
+			"WaitingForPrePay": "Waiting For Pre-Payment",
+			"DriverCanceled": "Driver Canceled",
+			"RiderCanceled": "Rider Canceled",
+			"Started": "Started",
+			"WaitingForPostPay": "Waiting For Post-Payment",
+			"WaitingForReview": "Waiting For Review",
+			"Finished": "Finished",
+			"Booked": "Booked",
+			"Expired": "Expired"
+		},
+		"transactionType": {
+			"OrderFee": "주문 수수료",
+			"Cash": "현금",
+			"BankTransfer": "은행 송금",
+			"Gift": "선물",
+			"Commission": "수수료",
+			"Correction": "보정",
+			"InAppPayment": "인앱 결제",
+			"Withdraw": "철회하다"
+		},
+		"transactionStatus": {
+			"Processing": "가공",
+			"Done": "끝난",
+			"Canceled": "취소 된",
+			"Rejected": "거부 됨"
+		},
+		"gender": {
+			"male": "남성",
+			"female": "여자",
+			"genderless": "젠더리스"
+		},
+		"complaintStatus": {
+			"submitted": "제출 된",
+			"underInvestigation": "조사중인",
+			"resolved": "해결됨"
+		},
+		"driver": {
+			"status": {
+				"pendingApproval": "승인 대기중",
+				"approved": "승인됨",
+				"blocked": "차단됨",
+				"softReject": "소프트 거절",
+				"hardReject": "하드 거절",
+				"offline": "오프라인",
+				"waitingDocuments": "보류 중인 제출",
+				"inService": "서비스중",
+				"online": "온라인"
+			}
+		},
+		"rider": {
+			"status": {
+				"blocked": "차단됨",
+				"enabled": "활성화됨"
+			}
+		}
+	},
+	"branding": {
+		"menu": {
+			"header": "Ridy"
+		},
+		"footer": {
+			"address": "https://ridy.io/",
+			"prefix": "© 2021",
+			"title": "Ridy",
+			"suffix": "All Rights reserved."
+		},
+		"page": {
+			"title": "Taxi CMS"
+		}
+	},
+	"menu": {
+		"home": {
+			"overview": "현황/통계",
+			"dispatcher": "배차원",
+			"header": "Home"
+		},
+		"driver": {
+			"pendingVerification": "요청 대기중",
+			"all": "전체보기",
+			"header": "드라이버"
+		},
+		"marketing": {
+			"coupons": "쿠폰",
+			"announcements": "공지사항",
+			"header": "마케팅"
+		},
+		"accounting": {
+			"admin": "Admin",
+			"fleets": "소속",
+			"drivers": "드라이버",
+			"riders": "고객",
+			"header": "Accounting"
+		},
+		"riders": "Riders",
+		"requests": "Requests",
+		"complaints": "Complaints",
+		"management": {
+			"regions": "지역",
+			"services": "서비스",
+			"fleets": "Fleets",
+			"cars": "차종",
+			"userRoles": "사용자 역할",
+			"users": "사용자",
+			"paymentGateways": "결제 게이트웨이",
+			"settings": "설정",
+			"header": "관리"
+		}
+	},
+	"overview": {
+		"switch": {
+			"language": "언어 변경"
+		},
+		"notification": {
+			"title": "알림 센터"
+		},
+		"logout": "Logout",
+		"driversOnline": "드라이버 운행중",
+		"autoZoom": "자동 줌",
+		"viewDriver": "View Driver",
+		"complaints": {
+			"title": "컴플레인",
+			"suffix": "검토 대기중"
+		},
+		"activeOrders": {
+			"title": "활성 주문",
+			"suffix": "명령"
+		},
+		"pendingDrivers": {
+			"title": "드라이버 대기중",
+			"suffix": "미확인"
+		},
+		"bookedOrders": {
+			"title": "예약된 주문",
+			"suffix": "예약됨"
+		},
+		"chart": {
+			"requestsTitle": "요청",
+			"allDay": "일별",
+			"allMonth": "월별",
+			"allYear": "연별",
+			"incomeTitle": "수익"
+		}
+	},
+	"notification": {
+		"complaints": {
+			"suffix": "Complaints unreviewed"
+		},
+		"pendingDrivers": {
+			"suffix": "Drivers unverified"
+		},
+		"paymentRequests": {
+			"suffix": "Payment Requests unsettled"
+		}
+	},
+	"requests": {
+		"expectedTime": "Expected Time",
+		"startTime": "Start Time",
+		"finishTime": "Finish Time",
+		"costAfterCoupon": "Cost After Coupon",
+		"estimatedCost": "Estimated Cost",
+		"header": "Header",
+		"requestTIme": "Request Time",
+		"service": "Service",
+		"distance": "거리",
+		"duration": "지속",
+		"chats": "Chats",
+		"complaints": "Complaints",
+		"assign": "드라이버 할당(알파)"
+	},
+	"profile": {
+		"status": "상태",
+		"locations": "위치",
+		"view": "보기",
+		"requestInfo": "요청정보",
+		"name": "이름",
+		"mobileNumber": "휴대폰번호",
+		"registeredOn": "Registered On",
+		"driverInfo": "드라이버 정보",
+		"riderInfo": "고객 정보",
+		"details": "상세정보",
+		"dateTime": "날짜 & 시간",
+		"subject": "제목",
+		"content": "컨덴츠",
+		"actions": "실행",
+		"services": "서비스",
+		"upload": "업로드",
+		"save": "저장",
+		"rating": "별점",
+		"review": "리뷰",
+		"transactionType": "Transaction Type",
+		"amount": "Amount",
+		"documentNumber": "문서 번호",
+		"submit": "등록",
+		"insertTransaction": "Insert Transaction",
+		"cost": "Cost",
+		"add": "추가",
+		"lastName": "성",
+		"search": "검색",
+		"reset": "리셋",
+		"export": "Export",
+		"total": "합계",
+		"currency": "통화",
+		"next": "다음",
+		"select": "선택",
+		"delete": "삭제",
+		"phoneNumber": "전화번호",
+		"address": "주소",
+		"financialRecords": "Financial Records",
+		"title": "타이틀",
+		"type": "타입",
+		"enabled": "활성화됨",
+		"disabled": "비활성화됨",
+		"userAgent": "사용자 에이전트",
+		"loginTimestamp": "로그인 날짜 및 시간",
+		"logoutTimestamp": "로그 아웃 날짜 및 시간",
+		"userName": "사용자ID",
+		"description": "설명",
+		"code": "코드",
+		"paymentGateway": "결제 게이트웨이",
+		"rider": "Rider",
+		"driver": "Driver",
+		"admin": "Admin",
+		"coupon": "쿠폰",
+		"activities": "활동 타임라인",
+		"location": "위치"
+	},
+	"complaint": {
+		"inscriptionTime": "Inscription Time",
+		"content": "Content"
+	},
+	"driver": {
+		"profile": {
+			"changeStatus": "업데이트 상태",
+			"lastSeenAt": "Last Seen At",
+			"rating": "Rating",
+			"details": "Details",
+			"orders": "명령",
+			"financials": "Credit Records",
+			"reviews": "리뷰",
+			"documents": "문서"
+		}
+	},
+	"table": {
+		"viewRequest": "View Request",
+		"viewOperator": "View Operator",
+		"viewGateway": "View Gateway",
+		"details": "세부",
+		"min": "Min",
+		"max": "Max",
+		"viewDriver": "드라이버 보기",
+		"viewFleet": "함대 보기",
+		"viewRider": "View Rider",
+		"viewComplaint": "View Complaint"
+	},
+	"dispatcher": {
+		"removeLastPoint": "Remove Last Point",
+		"rider": {
+			"title": "Rider",
+			"description": "Select rider to assign request"
+		},
+		"location": {
+			"title": "Location",
+			"description": "Pickup & Drop-off location(s)"
+		},
+		"service": {
+			"title": "Service",
+			"description": "Service to be requested"
+		},
+		"looking": {
+			"title": "Looking",
+			"description": "Searching for eligible driver"
+		},
+		"determiningLocation": "Determining Location, Please wait..."
+	},
+	"chart": {
+		"emptyState": "여기는 볼게 없다."
+	},
+	"message": {
+		"areYouSure": "확실합니까?"
+	},
+	"services": {
+		"editCategory": "카테고리 편집",
+		"newCategory": "새 카테고리",
+		"newService": "새 서비스"
+	},
+	"service": {
+		"createFirstNotice": "택시 카테고리에 표시 할 첫번째 서비스 범주를 만듭니다.",
+		"Regions": "지역",
+		"timeMultiplierTable": {
+			"startTime": "시작 시간",
+			"endTime": "종료 시간",
+			"multiplyBy": "곱하기 기준"
+		},
+		"insertRule": "Insert Rule",
+		"distanceMultiplierTable": {
+			"distanceFrom": "거리에서",
+			"distanceTo": "거리까지"
+		}
+	},
+	"settings": {
+		"generalSettings": "일반 설정"
+	},
+	"users": {
+		"tab": {
+			"details": "세부"
+		}
+	},
+	"coupons": {
+		"availabilityTime": "쿠폰 적용 기간",
+		"expirationTime": "만료 시간"
+	},
+	"riders": {
+		"tab": {
+			"details": "Details",
+			"creditrecords": "Credit Records",
+			"orders": "명령",
+			"addresses": "Addresses"
+		}
+	},
+	"requestActivityType": {
+		"arrivedToDestination": "목적지에 도착",
+		"arrivedToPickupPoint": "픽업 장소에 도착했습니다",
+		"bookedByOperator": "운영자 예약",
+		"bookedByRider": "라이더가 예약함",
+		"canceledByDriver": "드라이버에 의해 취소됨",
+		"canceledByOperator": "운영자에 의해 취소됨",
+		"canceledByRider": "라이더에 의해 취소됨",
+		"driverAccepted": "드라이버 수락",
+		"expired": "만료됨",
+		"paid": "유급의",
+		"requestedByOperator": "운영자 요청",
+		"requestedByRider": "라이더가 요청한",
+		"reviewed": "검토 및 평가",
+		"started": "시작됨"
+	}
+}
