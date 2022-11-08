@@ -44,7 +44,7 @@
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
-      <nz-form-label nzFor="carId">Car Model</nz-form-label>
+      <nz-form-label nzFor="carId">Vehicle Model</nz-form-label>
       <nz-form-control>
         <nz-select id="carId" formControlName="carId">
           <nz-option *ngFor="let car of data.carModels.nodes" [nzValue]="car.id" [nzLabel]="car.name"></nz-option>
@@ -52,7 +52,7 @@
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
-      <nz-form-label nzFor="carColorId">Car Color</nz-form-label>
+      <nz-form-label nzFor="carColorId">Vehicle Color</nz-form-label>
       <nz-form-control>
         <nz-select id="carColorId" formControlName="carColorId">
           <nz-option *ngFor="let carColor of data.carColors" [nzValue]="carColor.id" [nzLabel]="carColor.name"></nz-option>
@@ -60,13 +60,13 @@
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
-      <nz-form-label nzFor="carProductionYear">Car Production Year</nz-form-label>
+      <nz-form-label nzFor="carProductionYear">Vehicle Production Year</nz-form-label>
       <nz-form-control>
         <nz-input-number formControlName="carProductionYear" id="carProductionYear"></nz-input-number>
       </nz-form-control>
     </nz-form-item>
     <nz-form-item>
-      <nz-form-label nzFor="carPlate">Car Plate Number</nz-form-label>
+      <nz-form-label nzFor="carPlate">Vehicle Plate Number</nz-form-label>
       <nz-form-control>
         <input nz-input formControlName="carPlate" id="carPlate">
       </nz-form-control>

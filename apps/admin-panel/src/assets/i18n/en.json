@@ -65,16 +65,16 @@
 	},
 	"branding": {
 		"menu": {
-			"header": "Ridy"
+			"header": "Tuktuk"
 		},
 		"footer": {
-			"address": "http://ridy.io/",
+			"address": "http://tuktukblue.com:4003/",
 			"prefix": "© 2018-2021",
-			"title": "Ridy.io",
+			"title": "Tuktukblue.com:4003",
 			"suffix": "All Rights reserved."
 		},
 		"page": {
-			"title": "Ridy CMS"
+			"title": "Tuktuk CMS"
 		}
 	},
 	"menu": {
@@ -107,7 +107,7 @@
 			"regions": "Regions",
 			"services": "Services",
 			"fleets": "Fleets",
-			"cars": "Cars",
+			"cars": "Vehicles",
 			"userRoles": "User Roles",
 			"users": "Users",
 			"paymentGateways": "Payment Gateways",
